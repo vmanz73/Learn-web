@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML table</title>
+  <style>
+  table {
+    width: 100%;
+  }
+  table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td{
+    padding: 5px;
+    text-align: left;
+  }
+  table#t01 tr:nth-child(even){
+    background-color: powderblue;
+
+  }
+  table#t01 tr:nth-child(odd){
+    background-color: white;
+  }
+  table#01 th {
+    background-color: grey;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+  <table id="t01">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Firmansyah</td>
+      <td>Maulana</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Thearizky</td>
+      <td>Cintari Sylvanita</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Unknow</td>
+      <td>Unknow</td>
+      <td>00</td>
+    </tr>
+  </table>
+</body>
+</html>
